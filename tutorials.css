@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.page {
+    width: auto;
+}
+
+.menu {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(14, 3, 3, 0.5);
+}
+
+.leftmenu {
+    width: 50%;
+    line-height: 100px;
+    float: left;
+}
+
+.leftmenu h4 {
+    padding-left: 3%;
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rightmenu {
+    width: 50%;
+    line-height: 100%;
+    float: right;
+}
+
+.rightmenu ul {
+    margin-left: 50px;
+    float: right;
+}
+
+#CSE-IT-BUTTON:hover {
+    color: orange;
+}
+
+#EE-ECE-BUTTON:hover {
+    color: orange;
+}
+
+#CSE-IT-BUTTON {
+    background-color: transparent;
+    /* display: inline-block; */
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 50px;
+    width: 250px;
+    margin-top: 21px;
+    margin-right: 20px;
+    text-emphasis: yellow;
+    font-family: 'Montserrat', sans-serif;
+    border: 3px solid white;
+}
+
+#EE-ECE-BUTTON {
+    background-color: transparent;
+    /* display: inline-block; */
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 50px;
+    width: 250px;
+    margin-top: 21px;
+    margin-right: 20px;
+    text-emphasis: yellow;
+    font-family: 'Montserrat', sans-serif;
+    border: 3px solid white;
+}
+
+#EE-ECE {
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+#CSE-IT {
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+#EE-ECE h2 {
+    font-size: 30px;
+    text-shadow: antiquewhite;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#CSE-IT h2 {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#EE-ECE ul {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#CSE-IT ul {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#content {
+    height: 2000px;
+    background: scroll;
+    background-color: antiquewhite;
+}
