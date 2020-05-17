@@ -5,10 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tutorials</title>
+    <link rel="stylesheet" href="tutorials.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700,400italic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
 </head>
 
 <body>
-    Welcome to My Tutorials
+    <div class="page">
+        <div class="menu">
+            <div class="leftmenu">
+                <h4> Welcome to Placement Revision Tutorials !</h4>
+            </div>
+            <div class="rightmenu">
+                <ul>
+                    <a href="#CSE-IT">
+                        <button id="CSE-IT-BUTTON"> CSE-IT COURSES </button>
+                    </a>
+                    <a href="#EE-ECE">
+                        <button id="EE-ECE-BUTTON"> EE-ECE COURSES </button>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div id="content">
+            <div id="CSE-IT">
+                <h2><u>CSE-IT Courses</u></h2>
+                <ul>
+                    <li><a href="./Web_tutorial.html">WEB DEVELOPMENT</a></li>
+                    <li>Programming in C++</li>
+                    <li>Data Structures and Algorithms</li>
+                </ul>
+            </div>
+            <div id="EE-ECE">
+                <h2><u>EE-ECE Courses</u></h2>
+                <ul>
+                    <li>Analog Circuits</li>
+                    <li>Digital Circuits</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <!-- WhatsHelp.io widget -->
+    <script type="text/javascript">
+        (function() {
+            var options = {
+                email: "vivekmishraiit@gmail.com", // Email
+                call: "+918802024312", // Call phone number
+                call_to_action: "Message us", // Call to action
+                button_color: "#FF6550", // Color of button
+                position: "right", // Position may be 'right' or 'left'
+                order: "email,call", // Order of buttons
+            };
+            var proto = document.location.protocol,
+                host = "whatshelp.io",
+                url = proto + "//static." + host;
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function() {
+                WhWidgetSendButton.init(host, proto, options);
+            };
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        })();
+    </script>
 </body>
 
 </html>
